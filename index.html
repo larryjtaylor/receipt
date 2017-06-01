@@ -32,10 +32,19 @@
             <label for="zip">Postal Code</label>
             <input id="zip" class="form-control" type="text">
           </div>
+
+          <button type="Submit" class="btn">Submit</button>
         </form>
     </div>
-    
+    <div id="receipt">
+      <h3>Thank you for your purchase</h3>
+      <h4>Your item will be shipped to the following address</h4>
 
-
+      <ul class="list-unstyled">
+        <li><span class="name"></span></li>
+        <li><span class="address"></span></li>
+        <li><span class="city"></span>, <span class="state"></span> <span class="zip"></span></li>
+      </ul>
+    </div>
   </body>
 </html>
